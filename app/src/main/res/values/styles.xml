@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:backgroundTint">@color/color_primary_dark</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBarText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ActionBarText.Title" parent="ActionBarText">
+        <item name="android:textSize">@dimen/text_appbar_title</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CharacterPanel">
+
+    </style>
+
+    <style name="CharacterPanel.Label">
+        <item name="android:textColor">@color/color_gray_dark</item>
+        <item name="android:textSize">@dimen/text_appbar_label</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CharacterPanel.Value" parent="CharacterPanel.Label">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

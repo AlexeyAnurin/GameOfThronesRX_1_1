@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Game Of Thrones1</string>
+    <string name="connection_error">Интернет недоступен - приложение не может быть запущенно. Подключитесь к интернету и перезапустите приложение</string>
+    <string name="title_activity_charters_list_screen">ChartersListScreen</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="search">Search</string>
+    <string name="hintSearch">Поиск</string>
+    <string name="words">Words:</string>
+    <string name="born">Born:</string>
+    <string name="father">Father:</string>
+    <string name="mother">Mother:</string>
+    <string name="titles">Titles:</string>
+    <string name="aliases">Aliases:</string>
+</resources>
